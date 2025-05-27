@@ -4,7 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="menu top_menu">
+        <ul class="top_menu__list">
+          <li class="top_menu__item menu__item_active">главная</li>
+          <li class="top_menu__item">посмотреть лоты</li>
+          <li class="top_menu__item">об аукционе</li>
+        </ul>
+      </nav>
+      <a class="logo logo_dark" href="#0" alt="логотип"> </a>
+      <address class="address">
+        <span class="underlined">
+          <a href="tel:+99995555555">
+            +9 999 555 5555
+          </a>
+        </span>
+        <span class="underlined">
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        </span>
+        наб. Принсенграхт 263- 265, Амстердам
+      </address>
+    </header>
+    <div class="main">
+      <section class="cover dark_cover">
+          <h1 class="h1">
+            <p class="h1__item h1__item_position_start">ОНО</p>
+            <p class="h1__item">ТЕБЕ</p>
+            <p class="h1__item h1__item_position_end">НАДО</p>
+          </h1>
+          <div class="discriprion">
+            <p class="p">Аукцион вещей, вкоторые никто не верил</p>
+            <button class="botton">Сделать ставку</button>
+          </div>
+      </section>
+      <section class="lots">
+        <h2 class="h2 lots__title">Лоты</h2>
+        <ul class="lots__list">
+          <li class="lots__item lot">
+            <a class="lot__link" href="#0">
+              <article class="lot__content dark_cover">
+                  <span class="underlined">
+                    <h3 class="lot__title">
+                      Фильм режиссёра, который бросил киношколу
+                    </h3>
+                  </span>
+                  <p class="lot__description">
+                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  </p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <a class="show-more">
+          <span class="underlined">
+            посмотреть больше
+          </span>
+        </a>
+      </section>
+      <section class="about">
+        <div class="column-narrow">
+          <div class="circle circle_color_black">
+            <img class="logo_light" src="/images/logo-white.svg" alt="логотип">
+          </div>
+        </div>
+        <div class="column-large">
+          <h2 class="h2 about-title">
+            <div class="description"></div>
+          </h2>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <address class="address"></address>
+      <nav class="menu botton-menu">
+        <ul class="botton-menu__list">
+          <li class="botton-menu__item menu__item_active">главная</li>
+          <li class="botton-menu__item">посмотреть лоты</li>
+          <li class="botton-menu__item">об аукционе</li>
+        </ul>
+      </nav>
+
+      <nav class="social-network">
+        <ul class="social-network__list">
+          <li class="social-network__item"><a class="link social-network__link social-network__link_youtube" href="#0" alt="YouTube"></a></li>
+          <li class="social-network__item"><a class="link social-network__link social-network__link_vk" href="#0" alt="VK"></a></li>
+          <li class="social-network__item"><a class="link social-network__link social-network__link_pinterest" href="#0" alt="Pinterest"></a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

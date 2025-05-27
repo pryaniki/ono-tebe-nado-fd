@@ -1,1 +1,76 @@
-/* место для вашего кода */
+/* header */
+.header {}
+
+.logo {}
+
+.menu {}
+
+.text {
+}
+
+.text_small {
+}
+
+.text_medium {
+}
+
+.text_light {}
+
+.top_menu {}
+
+.top_menu_list {}
+
+.top_menu__item {}
+
+.underlined {}
+
+.menu__item_active {}
+
+.address {}
+
+/* end-header */
+
+/* main */
+.main {
+
+}
+
+.cover {
+}
+
+.dark_cover {}
+
+.lots {}
+
+.lots__title {}
+
+.lot__content {}
+
+.about {}
+
+.circle {}
+
+.circle_color_black {}
+
+.logo_light {}
+
+.column-large {}
+
+.about-title {}
+
+.description {}
+
+/* end-main */
+
+/* footer */
+.footer {}
+
+.botton-menu {}
+
+.botton-menu__list {}
+
+.botton-menu__item {}
+
+.menu__item_active {}
+
+.social-network {}
