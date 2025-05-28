@@ -1,32 +1,72 @@
 /* header */
-.header {}
+.header {
+    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 90px 50px 95px;
+}
 
-.logo {}
+.header__logo {
+    display: block;
+}
 
-.menu {}
+.header__logo-image {
+    width: 148px;
+    height: 105px;
+}
+
+.header__menu {
+
+}
 
 .text {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0;
 }
 
 .text_small {
+    font-size: 18px;
 }
 
 .text_medium {
+    font-size: 22px;
 }
 
 .text_light {}
 
-.top_menu {}
+.header__menu {
+    display: flex;
+    gap: 32px;
+    
+}
 
-.top_menu_list {}
+.header__menu-list {
+    display: flex;
+    gap: 28px;
+    list-style-type: circle;
+}
 
-.top_menu__item {}
+.header__menu-item_active {
+    list-style: none;
+    border-bottom: none;
+}
 
-.underlined {}
+.menu-item_underlined {
+    display: inline-block;
+    border-bottom: 1px solid #000;
+}
 
-.menu__item_active {}
+.underlined {
+    border-bottom: 1px solid #000;
+}
 
-.address {}
+.header__address {
+    max-width: 240px;
+    justify-self: end;
+    line-height: 24px;
+}
 
 /* end-header */
 
@@ -36,6 +76,7 @@
 }
 
 .cover {
+    background-image: url("/images/cover.jpg");
 }
 
 .dark_cover {}
@@ -63,14 +104,71 @@
 /* end-main */
 
 /* footer */
-.footer {}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: start;
+    height: 180px;
+    column-gap: 100px;
+    margin-top: 180px;
+    padding: 0 50px 95px;
 
-.botton-menu {}
+}
 
-.botton-menu__list {}
+.footer__address {
+    justify-self: start;
+    max-width: 265px;
+    width: 265px;
+    line-height: 24px;
 
-.botton-menu__item {}
+}
 
-.menu__item_active {}
+.footer__menu {
+    width: 164px;
+}
 
-.social-network {}
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__menu-item {}
+
+.footer__social-network {
+    justify-self: end;
+}
+
+.footer__social-network-list {
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+    height: 48px;
+}
+
+.footer__social-network-item {
+    
+}
+
+.footer__social-network-link {
+
+}
+
+.footer__social-network-icon {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.footer__social-network-icon_youtube {
+    background-image: url("/images/yt.svg");
+}
+
+.footer__social-network-icon_vk {
+    background-image: url("/images/vk.svg");
+}
+
+.footer__social-network-icon_pinterest {
+    background-image: url("/images/pinterest.svg");
+}

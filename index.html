@@ -11,27 +11,44 @@
   </head>
   <body>
     <header class="header">
-      <nav class="menu top_menu">
-        <ul class="top_menu__list">
-          <li class="top_menu__item menu__item_active">главная</li>
-          <li class="top_menu__item">посмотреть лоты</li>
-          <li class="top_menu__item">об аукционе</li>
+      <nav class="header__menu">
+        <ul class="header__menu-list">
+          <li class="header__menu-item header__menu-item_active">
+            <a class="header__menu-link">
+              <p class="text text_small">главная</p>
+            </a>
+          </li>
+          <li class="header__menu-item menu-item_underlined">
+            <a class="header__menu-link" href="#0">
+              <p class="text text_small">посмотреть лоты</p>
+            </a>
+          </li>
+          <li class="header__menu-item menu-item_underlined">
+            <a class="header__menu-link" href="#0">
+              <p class="text text_small">об аукционе</p>
+            </a>
+          </li>
         </ul>
       </nav>
-      <a class="logo logo_dark" href="#0" alt="логотип"> </a>
-      <address class="address">
-        <span class="underlined">
+      <a class="header__logo" alt="логотип">
+        <img class="header__logo-image"
+          src="/images/logo-black.svg" 
+          alt="логотип"
+        >
+       </a>
+      <address class="header__address text_small">
+        <span class="underlined text_small">
           <a href="tel:+99995555555">
             +9 999 555 5555
           </a>
         </span>
-        <span class="underlined">
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span class="underlined text_small">
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
         </span>
         наб. Принсенграхт 263- 265, Амстердам
       </address>
     </header>
-    <div class="main">
+    <!-- <div class="main">
       <section class="cover dark_cover">
           <h1 class="h1">
             <p class="h1__item h1__item_position_start">ОНО</p>
@@ -79,22 +96,44 @@
           </h2>
         </div>
       </section>
-    </div>
+    </div> -->
     <footer class="footer">
-      <address class="address"></address>
-      <nav class="menu botton-menu">
-        <ul class="botton-menu__list">
-          <li class="botton-menu__item menu__item_active">главная</li>
-          <li class="botton-menu__item">посмотреть лоты</li>
-          <li class="botton-menu__item">об аукционе</li>
+      <address class="footer__address text text_small">
+        <span class="underlined text text_small">
+          <a href="tel:+99995555555">
+            +9 999 555 5555
+          </a>
+        </span><br>
+        <span class="underlined text text_small">
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
+        </span>
+        наб. Принсенграхт 263-265,<br> Амстердам
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item footer__menu-item_active"><p class="text text_small">главная</p></li>
+          <li class="footer__menu-item menu-item_underlined"><p class="text text_small">посмотреть лоты</p></li>
+          <li class="footer__menu-item menu-item_underlined"><p class="text text_small">об аукционе</p></li>
         </ul>
       </nav>
 
-      <nav class="social-network">
-        <ul class="social-network__list">
-          <li class="social-network__item"><a class="link social-network__link social-network__link_youtube" href="#0" alt="YouTube"></a></li>
-          <li class="social-network__item"><a class="link social-network__link social-network__link_vk" href="#0" alt="VK"></a></li>
-          <li class="social-network__item"><a class="link social-network__link social-network__link_pinterest" href="#0" alt="Pinterest"></a></li>
+      <nav class="footer__social-network">
+        <ul class="footer__social-network-list">
+          <li class="footer__social-network-item">
+            <a class="footer__social-network-link footer__social-network-link_youtube" href="#0" alt="YouTube">
+              <i class="footer__social-network-icon footer__social-network-icon_youtube"></i>
+            </a>
+          </li>
+          <li class="footer__social-network-item">
+            <a class="footer__social-network-link footer__social-network-link_vk" href="#0" alt="VK">
+              <i class="footer__social-network-icon footer__social-network-icon_vk"></i>
+            </a>
+          </li>
+          <li class="footer__social-network-item">
+            <a class="footer__social-network-link footer__social-network-link_pinterest" href="#0" alt="Pinterest">
+              <i class="footer__social-network-icon footer__social-network-icon_pinterest"></i>
+            </a>
+          </li>
         </ul>
       </nav>
     </footer>
