@@ -63,11 +63,11 @@
 
 .menu-item_underlined {
   display: inline-block;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid currentColor;
 }
 
 .underlined {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid currentColor;
 }
 
 .header__address {
@@ -134,7 +134,7 @@
 .bet-button {
   color: #fff;
   background: none;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
 }
 
 .bet-button__text {
