@@ -40,23 +40,14 @@
   font-size: 22px;
 }
 
-.header__menu {
-  display: flex;
-  gap: 32px;
-}
-
 .header__menu-list {
   display: flex;
-  gap: 28px;
+  gap: 32px;
   list-style-type: circle;
 }
 
 .header__menu-item_active {
   list-style-type: none;
-}
-
-.menu-item_underlined {
-  border-bottom: 1px solid currentColor;
 }
 
 .underlined {
@@ -208,7 +199,6 @@
   width: 254px;
   margin-bottom: 48px;
   z-index: 1;
-
 }
 
 .show-more {
