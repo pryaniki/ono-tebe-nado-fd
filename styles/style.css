@@ -53,15 +53,18 @@
   display: flex;
   gap: 28px;
   list-style-type: circle;
+  /* padding-left: 20px; */
+}
+
+.header__menu-item {
+  /* list-style: circle; */
 }
 
 .header__menu-item_active {
-  list-style: none;
-  border-bottom: none;
+  list-style-type: none;
 }
 
 .menu-item_underlined {
-  display: inline-block;
   border-bottom: 1px solid currentColor;
 }
 
